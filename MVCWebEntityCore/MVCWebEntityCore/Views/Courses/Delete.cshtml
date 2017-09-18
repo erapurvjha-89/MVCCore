@@ -1,0 +1,53 @@
+@model MVCWebEntityCore.Models.Courses
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Courses</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <input type="hidden" asp-for="CoursesId" />
+        <dt>
+            @Html.DisplayNameFor(model => model.CourseName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CourseName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.CourseDescription)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CourseDescription)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.CourseTutor)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CourseTutor)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.CourseFees)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CourseFees)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.CourseCategory)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CourseCategory.CourseCategoryId)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            <a asp-action="Index">Back to List</a>
+        </div>
+    </form>
+</div>

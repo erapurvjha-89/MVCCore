@@ -1,0 +1,35 @@
+@model MVCWebEntityCore.Models.CourseCategory
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>CourseCategory</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <input type="hidden" asp-for="CourseCategoryId" />
+        <dt>
+            @Html.DisplayNameFor(model => model.CategegoryName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CategegoryName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.CategoryDescription)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CategoryDescription)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            <a asp-action="Index">Back to List</a>
+        </div>
+    </form>
+</div>

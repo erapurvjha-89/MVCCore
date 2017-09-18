@@ -1,0 +1,10 @@
+D:\NagarajuTraining\MVCWebEntityCore\MVCWebEntityCore\MVCWebEntityCore\bin\Debug\netcoreapp1.1\MVCWebEntityCore.deps.json
+D:\NagarajuTraining\MVCWebEntityCore\MVCWebEntityCore\MVCWebEntityCore\bin\Debug\netcoreapp1.1\MVCWebEntityCore.runtimeconfig.json
+D:\NagarajuTraining\MVCWebEntityCore\MVCWebEntityCore\MVCWebEntityCore\bin\Debug\netcoreapp1.1\MVCWebEntityCore.runtimeconfig.dev.json
+D:\NagarajuTraining\MVCWebEntityCore\MVCWebEntityCore\MVCWebEntityCore\bin\Debug\netcoreapp1.1\MVCWebEntityCore.dll
+D:\NagarajuTraining\MVCWebEntityCore\MVCWebEntityCore\MVCWebEntityCore\obj\Debug\netcoreapp1.1\MVCWebEntityCore.csprojResolveAssemblyReference.cache
+D:\NagarajuTraining\MVCWebEntityCore\MVCWebEntityCore\MVCWebEntityCore\obj\Debug\netcoreapp1.1\MVCWebEntityCore.csproj.CoreCompileInputs.cache
+D:\NagarajuTraining\MVCWebEntityCore\MVCWebEntityCore\MVCWebEntityCore\obj\Debug\netcoreapp1.1\MVCWebEntityCore.AssemblyInfo.cs
+D:\NagarajuTraining\MVCWebEntityCore\MVCWebEntityCore\MVCWebEntityCore\bin\Debug\netcoreapp1.1\MVCWebEntityCore.pdb
+D:\NagarajuTraining\MVCWebEntityCore\MVCWebEntityCore\MVCWebEntityCore\obj\Debug\netcoreapp1.1\MVCWebEntityCore.dll
+D:\NagarajuTraining\MVCWebEntityCore\MVCWebEntityCore\MVCWebEntityCore\obj\Debug\netcoreapp1.1\MVCWebEntityCore.pdb
